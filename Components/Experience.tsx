@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
-
+import react from "../public/1_doAg1_fMQKWFoub-6gwUiQ.png"
+import react2 from "../public/5838197.png"
+import react3 from "../public/nodejs-image.png";
+import react4 from "../public/express.png";
+import Image from 'next/image';
 type Props = {}
 
 type State = {}
@@ -14,10 +18,10 @@ export default class Experience extends Component<Props, State> {
           <h4 className='text-4xl font-light'>Full Stack developer intern</h4>
           <p className='font-bold text-2xl mt-1'>KPR TECH</p>
           <div className='flex items-center space-x-2 my-4'>
-          <img className='h-10 w-10 text-white rounded-full' src="https://cdn1.iconfinder.com/data/icons/soleicons-solid-vol-1/64/reactjs_javascript_library_atom_atomic_react-512.png" alt="" />
-          <img className='h-10 w-10 text-white rounded-full' src="https://skillshack.blob.core.windows.net/uploads/express.webp" alt="" />
-          <img className='h-10 w-10 text-white rounded-full' src="https://miro.medium.com/max/512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="" />
-          <img className='h-10 w-10 text-white rounded-full' src="https://www.mindrops.com/images/nodejs-image.png" alt="" />
+          <Image className='h-10 w-10 text-white rounded-full' src={react}  height={40} width={40} alt="" />
+          <Image className='h-10 w-10 text-white rounded-full' src={react2}  height={40} width={40}alt="" />
+          <Image className='h-10 w-10 text-white rounded-full' src={react3}  height={40} width={40}alt="" />
+          <Image className='h-10 w-10 text-white rounded-full' src={react4}  height={40} width={40}alt="" />
           
           </div>
           <p className='uppercase py-5 text-gray-500'>from Sept 07 - Nov 07</p>
